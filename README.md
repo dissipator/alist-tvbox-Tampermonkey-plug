@@ -6,10 +6,13 @@
 默认管理端为4567，alist端口5678
 ## 截图
 加载：
+
 ![image](https://raw.githubusercontent.com/dissipator/alist-tvbox-Tampermonkey-plug/main/img/截屏2023-07-30%2020.16.50.png)
 
 配置：
+
 ![image](https://raw.githubusercontent.com/dissipator/alist-tvbox-Tampermonkey-plug/main/img/截屏2023-07-30%2020.15.22.png)
 
 使用：
+
 ![image](https://raw.githubusercontent.com/dissipator/alist-tvbox-Tampermonkey-plug/main/img/截屏2023-07-30%2020.25.53.png)
