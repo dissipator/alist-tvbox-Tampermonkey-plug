@@ -350,7 +350,7 @@ body.loading .xhr-progress {
         } else {
             console.log('config not set')
             config = {
-                url: "http://192.168.31.10:5679",
+                url: "http://192.168.3.1",
                 username: "admin",
                 password: "admin",
                 driver: "AliyundriveShare2Open",
@@ -474,8 +474,8 @@ body.loading .xhr-progress {
                 $("body").removeClass('loading')
                 //console.log(response.responseText)
                 const tokenObj = JSON.parse(response.responseText)
-                console.log('3. get AList login token', tokenObj)
-                if (tokenObj.name !== 1) {
+                console.log('3. get AList login name', tokenObj.name)
+                if (tokenObj.name !== '1') {
                     alert('AList用户名或密码配置不正确，请重新配置')
                     return
                 }
